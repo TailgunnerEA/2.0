@@ -1,0 +1,21 @@
+Tailgunner 2.0 MT4 Expert Advisor
+
+Engulfing and Pin Bar Candlestick Patterns
+
+This Expert Advisor is a compact but feature-rich MT4 Forex trade robot designed to identify and trade 2 key well known high probability trend reversal candlestick patterns, (Pinbar & Bullish/Bearish engulfing).
+
+Among the many candlestick formations, the engulfing candle and the pin bar are two of the most widely recognized for their reliability in signaling potential market reversals.
+
+Toptail candle (pinbar) will trigger buy/sell trades or, bottom tail candle (doji) will trigger buy/sell trades. Where Top tail & bottom tail candle act as a pre alert signal. The EA will then begin searching (set EA Tradedelay parameter) for a bearish or bullish engulfing candle pattern as trade entry confirmation.
+
+This simple act of waiting for one or more candle can filter out many false signals where the market hesitates or immediately reverses back against the Pin Bar's direction. 
+
+The trade logic behind the "Tradedelay" EA parameter is that after the initial top or bottom tail signal, the markets need at least 3-5 candles on the 5 minute chart to play out this (possible false signal) move and determine a final trend direction.
+
+Because we are scalping and trade relative small movements, the EA's default setting is to trade both directions (TradeB&B=true), dependent on the first forming bullish or bearish engulfing pattern. 
+
+The EA is built for practical research and quick visual verification: it helps traders and system developers turn these pattern recognition into repeatable statistics that can inform strategy design or manual trade decisions.
+
+Tested on Roboforex.com. Put following 4 simultane Forex pairs on 5 minute chart : EUR/USD - GBP/USD - USD/CHF - AUD/USD
+
+Feel free to contact me if you have any other remarks or questions at: metatronsoftlab@gmail.com
